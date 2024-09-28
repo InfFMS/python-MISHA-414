@@ -3,3 +3,8 @@
 # Пример:
 # Ввод: k = 2, b = 3, x = 5
 # Вывод: y = 13
+st=input()
+k=int(st[4])
+b=int(st[11])
+x=int(st[-1])
+print(f'y = {k*x+b}')

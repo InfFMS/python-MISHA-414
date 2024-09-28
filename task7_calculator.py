@@ -3,3 +3,13 @@
 # Пример:
 # Ввод: Первое число: 10, Второе число: 2, Операция: *
 # Вывод: Результат: 20
+a, b=map(int, input().split())
+op=input()
+if op=='+':
+    print(a+b)
+if op=='-':
+    print(a-b)    
+if op=='*':
+    print(a*b)    
+if op=='/':
+    print(a/b)            
